@@ -406,10 +406,14 @@ address {
 .menu-main {
   display: flex;
   flex-wrap: wrap;
+  width: 1360px;
   height: 1052px;
   gap: 40px;
+  margin-top: 126px;
 }
 .menu-flex {
+  /* margin-top: 126px; */
+
   width: 1360px;
 
   display: flex;
@@ -418,12 +422,13 @@ address {
 }
 .menu-item {
   display: flex;
-  flex-direction: column;
   justify-content: space-between;
+  flex-direction:column;
+/* align-content: flex-start; */
   flex-wrap: wrap;
   width: 310px;
   height: 506px;
-  gap: 40px;
+  /* gap: 40px; */
   border: 1px solid #c1b6ad;
   border-radius: 40px;
 }
@@ -431,4 +436,33 @@ address {
   font-size: 24px;
   line-height: 30px;
   font-weight: 600;
+  color: #403F3D;
+  font-family: "Inter", sans-serif;
+
+}
+.menu-item img, .menu-item a {
+  width: 310px;
+  height: 310px;
+}
+.menu-item h2 {
+  padding: 20px 20px 0 20px;
+  /* display: block; */
+  /* width: 100%; */
+}
+.menu-item span {
+margin-left:20px;
+text-align: left;
+/* display: block; */
+/* width: 100%; */
+/* justify-content: space-between; */
+
+}
+.menu-item p {
+  margin: 0 20px 0 20px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  display: block;
+  text-align: left;
+  /* width: 100%; */
 }
