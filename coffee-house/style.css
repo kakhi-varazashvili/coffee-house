@@ -211,9 +211,11 @@ h1 span {
 }
 .photo-grid {
   display: flex;
-  gap:40px;
+  gap: 40px;
 }
-.lt, .rt, .photo-grid {
+.lt,
+.rt,
+.photo-grid {
   gap: 40px;
 }
 .photo-grid img {
@@ -222,7 +224,8 @@ h1 span {
   object-fit: cover; /* Maintain aspect ratio and cover the grid cell */
   display: block;
 }
-.photo1, .photo2 {
+.photo1,
+.photo2 {
   margin: 40px 0 40px 0;
 }
 
@@ -346,7 +349,7 @@ address {
   align-items: center;
   gap: 8px;
 }
-.button-store p {
+.button-store .p {
   font-size: 10px;
   font-weight: 600;
   line-height: 14px;
@@ -356,7 +359,7 @@ address {
   justify-content: center;
   align-items: center;
 }
-.button-store span {
+.button-store .sp {
   font-size: 16px;
   line-height: 24px;
   color: #403f3d;
