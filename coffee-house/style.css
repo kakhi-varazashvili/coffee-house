@@ -406,7 +406,7 @@ address {
 .menu-main {
   display: flex;
   flex-wrap: wrap;
-  width: 1360px;
+  /* width: 1360px; */
   height: 1052px;
   gap: 40px;
   margin-top: 126px;
