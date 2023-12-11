@@ -382,13 +382,28 @@ address {
 }
 
 /* -----------MENU PAGE-------------- */
+.menu-header {
+  width: 1360px;
+  gap: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 236px;
+  margin-bottom: 40px;
+  align-items: center;
+  flex-direction: column;
+  
 
+}
 .mn-header {
   width: 800px;
   display: flex;
   justify-content: center;
   text-align: center;
   height: 150px;
+  flex-wrap: wrap;
+  gap: 40px;
+
 }
 .mn-title h1 {
   font-size: 60px;
@@ -409,7 +424,7 @@ address {
   /* width: 1360px; */
   height: 1052px;
   gap: 40px;
-  margin-top: 126px;
+  /* margin-top: 126px; */
 }
 .menu-flex {
   /* margin-top: 126px; */
@@ -462,4 +477,67 @@ text-align: left;
   display: block;
   text-align: left;
   width: 100%;
+}
+.btn-coffee {
+  width: 115px;
+  height: 46px;
+  background-color: #665f55;
+  padding: 8px 16px 8px 8px;
+  gap: 8px;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn-coffee span {
+  color:#e1d4c9 ;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+
+}
+.btn-cof-tea {
+  width: 361px;
+  height: 46px;
+   display: flex;
+  justify-content: center; 
+  gap: 16px;
+
+}
+.btn-tea {
+  width: 90px;
+  height: 46px;
+  background-color: #e1d4c9;
+  padding: 8px 16px 8px 8px;
+  gap: 8px;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+  border: 1px solid #c1b6ad;
+
+
+}
+.btn-tea span, .btn-dessert span {
+  color:#403f3d ;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+
+}
+.btn-dessert {
+  width: 124px;
+  height: 46px;
+  background-color: #e1d4c9;
+  padding: 8px 16px 8px 8px;
+  gap: 8px;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+  border: 1px solid #c1b6ad;
+
+
 }
