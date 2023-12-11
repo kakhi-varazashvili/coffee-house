@@ -423,12 +423,9 @@ address {
 .menu-item {
   display: flex;
   justify-content: space-between;
-  flex-direction:column;
-/* align-content: flex-start; */
   flex-wrap: wrap;
   width: 310px;
   height: 506px;
-  /* gap: 40px; */
   border: 1px solid #c1b6ad;
   border-radius: 40px;
 }
