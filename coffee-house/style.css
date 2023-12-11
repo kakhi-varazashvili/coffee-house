@@ -383,7 +383,7 @@ address {
 
 /* -----------MENU PAGE-------------- */
 .menu-header {
-  display: flex;
+  display: flex !important;
   width: 1360px;
   gap: 40px;
   justify-content: space-between;
