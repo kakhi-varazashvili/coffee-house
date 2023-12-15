@@ -1,4 +1,6 @@
 
+
+
 body {
   background-color: #e1d4c9;
   margin: 0;
@@ -12,7 +14,6 @@ body {
   align-self: stretch;
   width: 1440px;
   height: 100%;
-  /* gap: 100px; */
   margin: 0 auto;
 }
 main {
@@ -44,7 +45,6 @@ ul {
   flex-direction: column;
   align-items: center;
   margin-right: 4px;
-  /* gap: 4px; */
   color: #403f3d;
   font-weight: 600;
   font-size: 16px;
@@ -67,7 +67,6 @@ ul {
 }
 .header {
   display: flex;
-  /* padding: 0px 40px; */
   flex-direction: column;
   align-items: center;
   align-self: stretch;
@@ -86,7 +85,6 @@ ul {
   top: 100px;
   display: flex;
   flex-direction: column;
-  /* justify-content: flex-start; */
 }
 h1 {
   color: #e1d4c9;
@@ -94,7 +92,6 @@ h1 {
   font-size: 72px;
   font-family: inter;
   color: #e1d4c9;
-  /* margin-bottom: 40px; */
 }
 h1 span {
   font-style: italic;
@@ -105,26 +102,25 @@ h1 span {
   line-height: 24px;
   color: #e1d4c9;
   font-weight: 400;
-  /* margin-bottom: 40px; */
 }
 
 .btn {
   background-color: #e1d4c9;
-  /* padding: 20px, 78px; */
   border-radius: 100px;
   width: 200px;
   height: 64px;
   font-size: 16px;
   font-weight: 600;
   color: #403f3d;
-  /* margin: 0 auto; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border: none;
 }
 
 /* SLIDER STYLES */
 
 .slider-container {
-  /* margin: 100px 0 100px; */
   width: 80%;
   margin: 100px auto;
   overflow: hidden;
@@ -207,8 +203,6 @@ h1 span {
 .photos-section {
   width: 1360px;
   margin: 0 auto;
-  /* height: 1325px; */
-  /* gap: 40px; */
 }
 .photo-grid {
   display: flex;
@@ -220,9 +214,7 @@ h1 span {
   gap: 40px;
 }
 .photo-grid img {
-  /* width: 100%; */
-  /* height: 100%; */
-  object-fit: cover; /* Maintain aspect ratio and cover the grid cell */
+  object-fit: cover;
   display: block;
 }
 .photo1,
@@ -256,7 +248,6 @@ footer {
   align-items: center;
 }
 .footer-title {
-  /* gap: 40px; */
   width: 530px;
   height: 150px;
 }
@@ -314,7 +305,6 @@ address {
 
 .download {
   display: flex;
-  /* flex-direction: column; */
   width: 1360px;
   height: 630px;
   gap: 40px;
@@ -341,10 +331,8 @@ address {
   font-size: 16px;
   font-weight: 600;
   color: #403f3d;
-  /* margin: 0 auto; */
   border: none;
   border: #665f55 1px solid;
-  /* padding: 12px, 20px, 12px, 20px; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -401,7 +389,6 @@ address {
   height: 150px;
   flex-wrap: wrap;
   gap: 40px;
-
 }
 .mn-title h1 {
   font-size: 60px;
@@ -419,14 +406,10 @@ address {
 .menu-main {
   display: flex;
   flex-wrap: wrap;
-  /* width: 1360px; */
   height: 1052px;
   gap: 40px;
-  /* margin-top: 126px; */
 }
 .menu-flex {
-  /* margin-top: 126px; */
-
   width: 1360px;
 
   display: flex;
@@ -446,26 +429,20 @@ address {
   font-size: 24px;
   line-height: 30px;
   font-weight: 600;
-  color: #403F3D;
+  color: #403f3d;
   font-family: "Inter", sans-serif;
-
 }
-.menu-item img, .menu-item a {
+.menu-item img,
+.menu-item a {
   width: 310px;
   height: 310px;
 }
 .menu-item h2 {
   padding: 20px 20px 0 20px;
-  /* display: block; */
-  /* width: 100%; */
 }
 .menu-item span {
-margin-left:20px;
-text-align: left;
-/* display: block; */
-/* width: 100%; */
-/* justify-content: space-between; */
-
+  margin-left: 20px;
+  text-align: left;
 }
 .menu-item p {
   margin: 0 20px 0 20px;
@@ -488,19 +465,17 @@ text-align: left;
   align-items: center;
 }
 .btn-coffee span {
-  color:#e1d4c9 ;
+  color: #e1d4c9;
   font-size: 16px;
   font-weight: 600;
   line-height: 24px;
-
 }
 .btn-cof-tea {
   width: 361px;
   height: 46px;
-   display: flex;
-  justify-content: center; 
+  display: flex;
+  justify-content: center;
   gap: 16px;
-
 }
 .btn-tea {
   width: 90px;
@@ -514,15 +489,13 @@ text-align: left;
   align-items: center;
   border-radius: 100px;
   border: 1px solid #c1b6ad;
-
-
 }
-.btn-tea span, .btn-dessert span {
-  color:#403f3d ;
+.btn-tea span,
+.btn-dessert span {
+  color: #403f3d;
   font-size: 16px;
   font-weight: 600;
   line-height: 24px;
-
 }
 .btn-dessert {
   width: 124px;
@@ -536,6 +509,22 @@ text-align: left;
   align-items: center;
   border-radius: 100px;
   border: 1px solid #c1b6ad;
+}
+.menu-image {
+  overflow: hidden;
+  width: 310px;
+  height: 310px;
+}
+.menu-item {
+  overflow: hidden;
+}
+.im {
+  transition: transform 0.3s ease-in-out;
+  display: block;
+  overflow: hidden;
+  position: relative;
+}
 
-
+.menu-item:hover .im {
+  transform: scale(1.1);
 }
